@@ -114,6 +114,49 @@ input	output
 1570.98
 3	
 
+05. Problem: Salary
+A company boss notices that more and more employees are spending time on distracting websites.
+To prevent this, it implements surprise checks on its employees' open browser tabs.
+According to the open site in taba, the following fines are imposed:
+• "Facebook" -> BGN 150
+• "Instagram" -> BGN 100
+• "Reddit" -> BGN 50
+Two lines are read from the console:
+• Number of open tabs in the browser n - an integer in the interval [1...10]
+• Salary - number in the interval [500...1500]
+Then n - number of times website name - text is read
+output
+• If during the check the salary becomes less than or equal to BGN 0, the console displays
+"You have lost your salary." and the program ends.
+• Otherwise, after checking the console, the balance of the salary is printed (to be printed as an integer).
+
+Sample input and output
+input	     output
+10           You have lost 
+750          your salary.
+Facebook
+Dev.bg
+Instagram
+Facebook
+Reddit
+Facebook
+Facebook
+
+input	           output
+3                  500
+500
+Github.com
+Stackoverflow.com
+softuni.bg	
+
+input	output
+3       350
+500
+Facebook
+Stackoverflow.com
+softuni.bg	
+
+
 
 
 	
