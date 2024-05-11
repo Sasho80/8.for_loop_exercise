@@ -156,6 +156,54 @@ Facebook
 Stackoverflow.com
 softuni.bg	
 
+06.Problem: Oscars
+You are invited by the academy to write software to calculate the points for an actor/actress. The academy will give you initial points for the actor. Each rater will then give their rating. The points the actor receives are formed by: the length of the evaluator's name multiplied by the points he gives divided by two.
+If the score at any point exceeds 1250.5 the program should abort and print that the given actor has received a nomination.
+input
+• Actor name - text
+• Academy points - a real number in the interval [2.0... 450.5]
+• Number of evaluators n - an integer in the interval [1… 20]
+On the next n-th number of lines:
+o Evaluator's name - text
+o Points from the evaluator - a real number in the interval [1.0... 50.0]
+output
+To print one line to the console:
+• If points are above 1250.5:
+"Congratulations, {actor's name} got a nominee for leading role with {points}!"
+• If the points are not enough:
+"Sorry, {actor name} you need {points needed} more!"
+The result should be formatted to the first digit after the decimal point!
+
+Sample input and output
+input	        output
+Zahari Baharov  Sorry, Zahari Baharov 
+205             you need 247.5 more!
+4
+Johnny Depp
+45
+Will Smith
+29
+Jet Lee
+10
+Matthew Mcconaughey
+39	
+
+input              output
+Sandra Bullock     Congratulations, Sandra Bullock got a 
+340                nominee for leading role with 1268.5!
+5
+Robert De Niro
+50
+Julia Roberts
+40.5
+Daniel Day-Lewis
+39.4
+Nicolas Cage
+29.9
+Stoyanka Mutafova
+33	
+
+
 
 
 
