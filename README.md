@@ -69,17 +69,21 @@ Print the histogram to the console - 5 lines, each containing a number between 0
 Sample input and output
 
 input	output		input	output		input	output			input	output			input	output	
-3       66.67%
-1       0.00%
-2       0.00%
-999     0.00%
-	33.33%
-
-
-
-
-
-
+3       66.67%          4       75.00%          7       14.29%                  9       33.33%                  14      57.14%
+1       0.00%           53       0.00%          800     28.57%                  367     33.33%                  53      14.29%
+2       0.00%           7        0.00%          801     14.29%                  99      11.11%                  7       7.14%
+999     0.00%           56       0.00%          250     14.29%                  200     11.11%                  56      14.29%
+	33.33%          999     25.00%          199     28.57%                  799     11.11%                  180     7.14%
+                                                599                             999                             450
+                                                799                             333                             920
+                                                                                555                             12
+                                                                                111                             7
+                                                                                9                               150
+                                                                                                                250
+														680
+	                                                                                                        2
+													        600
+		                                                                                                200
 	
 
 	
