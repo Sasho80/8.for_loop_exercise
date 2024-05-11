@@ -84,6 +84,38 @@ input	output		input	output		input	output			input	output			input	output
 	                                                                                                        2
 													        600
 		                                                                                                200
+												  
+04.Problem: Clever Lily	
+Lily is now N years old. For every birthday she gets a present.
+• For odd birthdays (1, 3, 5...n) he gets toys.
+• For even birthdays (2, 4, 6...n) he receives money.
+For the second birthday, he receives BGN 10.00, and the amount increases by BGN 10.00 for each subsequent even birthday (2 -> 10, 4 -> 20, 6 -> 30...etc.). Over the years, Lily has secretly saved the money. Lily's brother, in the years that she receives money, takes BGN 1.00 from them. Lily sold the toys received over the years, each for P leva and added the amount to the money saved. She wanted to use the money to buy a washing machine for BGN X. Write a program to calculate how much money she has collected and whether she has enough to buy a washing machine.
+input
+The program reads 3 numbers entered by the user on separate lines:
+• Lily's age - an integer in the range [1...77]
+• The price of the washing machine - a number in the interval [1.00...10 000.00]
+• Unit price of a toy - an integer in the interval [0...40]
+output
+To print one line to the console:
+• If Lily's money is enough:
+o "Yes! {N}" - where N is the remaining money after the purchase
+• If the money is not enough:
+o "No! {M}" - where M is the amount missing
+The numbers N and M must be formatted to the second decimal place.
+
+Sample input and output
+input	output
+10      Yes! 5.00
+170.00
+6
+
+input	output
+21      No! 997.98
+1570.98
+3	
+
+
+
 	
 
 	
