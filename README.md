@@ -243,7 +243,64 @@ input	output
 41      7.08%
 31      8.78%
 250     82.44%
-6	
+6
+
+08.Problem: Tennis ranklist
+Grigor Dimitrov is a tennis player whose next goal is to climb the world rankings in men's tennis.
+During the year, Grisho participated in a certain number of tournaments, and for each tournament he received points that depend on the position in which he finished in the tournament. There are three options for completing a tournament:
+ W - if winner gets 2000 points
+ F - if he is a finalist he gets 1200 points
+ SF - if semi-finalist gets 720 points
+Write a program that calculates how many points Grigor will have after playing all the tournaments, knowing how many points he started the season with. Also calculate how many points he averaged from all the tournaments played and what percentage of the tournaments he won.
+input
+Two lines are first read from the console:
+• Number of tournaments in which he participated - an integer in the interval [1…20]
+• Initial number of points in the ranking list - an integer in the interval [1...4000]
+A separate line was read for each tournament:
+• Tournament Stage Reached - Text - "W", "F" or "SF"
+output
+Three lines are printed in the following format:
+• "Final points: {number of points after the tournaments played}"
+• "Average points: {average points earned per tournament}"
+• "{tournament won percentage}%"
+Midpoints should be rounded down to the nearest whole number, and percentages should be formatted to the second digit after the decimal point.
+
+Sample input and output
+input	output
+5       Final points: 8040
+1400    Average points: 1328
+F       40.00%
+SF
+W
+W
+SF	
+
+input	output
+4       Final points: 6190
+750     Average points: 1360
+SF      50.00%
+W
+SF
+W
+
+input	output
+7       Final points: 11040
+1200    Average points: 1405
+SF      42.86%
+F
+W
+F
+W
+SF
+W	
+
+
+
+
+
+
+
+
 
 
 
