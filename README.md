@@ -203,6 +203,57 @@ Nicolas Cage
 Stoyanka Mutafova
 33	
 
+07.Problem: Trekking Mania
+Climbers from all over Bulgaria gather in groups and mark the next peaks to climb. Depending on the size of the group, climbers will climb different peaks.
+• Group up to 5 people - climb Musala
+• Group of 6 to 12 people - climb Mont Blanc
+• A group of 13 to 25 people - climb Kilimanjaro
+• Group of 26 to 40 people - climb K2
+• Group of 41 or more people - climb Everest
+To write a program that calculates the percentage of climbers who climb each peak.
+input
+A series of numbers are read from the console, each on a separate line:
+• On the first line - the number of groups of climbers - an integer in the interval [1...1000]
+• For each group on a separate line - the number of people in the group - an integer in the interval [1...1000]
+output
+Print to the console 5 lines, each containing a percentage between 0.00% and 100.00% to the second decimal place.
+• First row - the percentage of Musala climbers
+• Second row – the percentage of Mont Blanc climbers
+• Third row – the percentage of Kilimanjaro climbers
+• Fourth row – the percentage of K2 climbers
+• Fifth row – the percentage of Everest climbers
+
+Sample input and output
+input	output
+10      1.84%
+10      6.75%
+5       5.21%
+1       31.60%
+100     54.60%
+12
+26
+17
+37
+40
+78	
+
+input	output
+5       0.00%
+25      1.70%
+41      7.08%
+31      8.78%
+250     82.44%
+6	
+
+
+
+
+
+
+
+
+
+
 
 
 
